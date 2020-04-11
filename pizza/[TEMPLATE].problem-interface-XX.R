@@ -21,7 +21,7 @@
 # This function must return a list with the information needed to 
 # solve the problem.
 # (Depending on the problem, it should receive or not parameters)
-initialize.problem = function(){
+initialize.problem = function(target, type, size){
   problem = list()
   ...
   # problem$state.initial = <Insert code here>
